@@ -13,6 +13,7 @@ const Sidebar = () => {
                 <ul className="nav">
                     <li className="nav-item">
                     <NavLink className="nav-link" to='/addrestaurant'>
+                        <i className="nc-icon nc-bank"></i>
                         <p>Add Restaurant</p>
                     </NavLink>
                     </li>

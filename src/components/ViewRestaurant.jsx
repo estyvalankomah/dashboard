@@ -4,100 +4,101 @@ import {
     CardHeader,
     Row,
     Col,
-    Table
+    Button
 } from "reactstrap";
 
 const ViewRestaurant = () => {
     return (
         <div>
-            <Row>
-                <div className="col">
-                <Card className="shadow">
-                    <CardHeader className="border-0">
-                        <Row>
-                            <Col xl="10" xs="12">
-                            <h3 className="mb-0">Restaurants</h3>
-                            </Col>
-                        </Row>
-                    </CardHeader>
-                    <Table className="align-items-center table-flush" responsive>
-                        <thead className="thead-light">
-                            <tr>
-                            <th scope="col">Index</th>
-                            <th scope="col">Vendor Name</th>
-                            <th scope="col">Icon/Logo</th>
-                            <th scope="col">Contact</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Address</th>
-                            <th scope="col">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Adenta KFC</td>
-                            <td></td>
-                            <td>0262720206</td>
-                            <td>abenammra2002@gmail.com</td>
-                            <td>Accra Adenta</td>
-                            <td>
-                                <button className="btn btn-link btn-primary">View</button>
-                                <button className="btn btn-link text-success btn-success">Authorize</button>
-                            </td>
-                            </tr>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Adenta KFC</td>
-                            <td></td>
-                            <td>0262720206</td>
-                            <td>abenammra2002@gmail.com</td>
-                            <td>Accra Adenta</td>
-                            <td>
-                                <button className="btn btn-link btn-primary">View</button>
-                                <button className="btn btn-link text-success btn-success">Authorize</button>
-                            </td>
-                            </tr>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Adenta KFC</td>
-                            <td></td>
-                            <td>0262720206</td>
-                            <td>abenammra2002@gmail.com</td>
-                            <td>Accra Adenta</td>
-                            <td>
-                                <button className="btn btn-link btn-primary">View</button>
-                                <button className="btn btn-link text-success btn-success">Authorize</button>
-                            </td>
-                            </tr>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Adenta KFC</td>
-                            <td></td>
-                            <td>0262720206</td>
-                            <td>abenammra2002@gmail.com</td>
-                            <td>Accra Adenta</td>
-                            <td>
-                                <button className="btn btn-link btn-primary">View</button>
-                                <button className="btn btn-link text-success btn-success">Authorize</button>
-                            </td>
-                            </tr>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Adenta KFC</td>
-                            <td></td>
-                            <td>0262720206</td>
-                            <td>abenammra2002@gmail.com</td>
-                            <td>Accra Adenta</td>
-                            <td>
-                                <button className="btn btn-link btn-primary">View</button>
-                                <button className="btn btn-link text-success btn-success">Authorize</button>
-                            </td>
-                            </tr>
-                        </tbody>
-                    </Table>
-                </Card>
-                </div>
-            </Row>
+            <Card className="shadow mt-5 ml-5 mr-5 pl-5 pb-3">
+                <CardHeader className="border-0">
+                    <Row>
+                        <Col xl="10" xs="12">
+                            <h3 className="mb-2">Restaurants</h3>
+                        </Col>
+                    </Row>
+                </CardHeader>
+                <Row className="pt-2 mb-4">
+                    <Col xl="3"> 
+                        <img src="" alt="pc"/>
+                    </Col>
+                    <Col xl="3">
+                        <Row className="text-info">Adenta KFC</Row>
+                        <Row className="text-muted">adentakfc@gmail.com</Row>
+                        <Row className="text-muted">0262720206</Row>
+                        <Row className="text-muted">Ghana</Row>
+                        <Row className="text-muted">Greater Accra, Accra</Row>
+                    </Col>
+                    <Col className="pt-4">
+                        <Button color="primary">View</Button>{'  '}
+                        <Button color="success">Authorize</Button>
+                    </Col>
+                </Row>
+                <Row className="pt-2 mb-4">
+                    <Col xl="3"> 
+                        <img src="" alt="pc"/>
+                    </Col>
+                    <Col xl="3">
+                        <Row className="text-info">Adenta KFC</Row>
+                        <Row className="text-muted">adentakfc@gmail.com</Row>
+                        <Row className="text-muted">0262720206</Row>
+                        <Row className="text-muted">Ghana</Row>
+                        <Row className="text-muted">Greater Accra, Accra</Row>
+                    </Col>
+                    <Col className="pt-4">
+                        <Button color="primary">View</Button>{'  '}
+                        <Button color="success">Authorize</Button>
+                    </Col>
+                </Row>
+                <Row className="pt-2 mb-4">
+                    <Col xl="3"> 
+                        <img src="" alt="pc"/>
+                    </Col>
+                    <Col xl="3">
+                        <Row className="text-info">Adenta KFC</Row>
+                        <Row className="text-muted">adentakfc@gmail.com</Row>
+                        <Row className="text-muted">0262720206</Row>
+                        <Row className="text-muted">Ghana</Row>
+                        <Row className="text-muted">Greater Accra, Accra</Row>
+                    </Col>
+                    <Col className="pt-4">
+                        <Button color="primary">View</Button>{'  '}
+                        <Button color="success">Authorize</Button>
+                    </Col>
+                </Row>
+                <Row className="pt-2 mb-4">
+                    <Col xl="3"> 
+                        <img src="" alt="pc"/>
+                    </Col>
+                    <Col xl="3">
+                        <Row className="text-info">Adenta KFC</Row>
+                        <Row className="text-muted">adentakfc@gmail.com</Row>
+                        <Row className="text-muted">0262720206</Row>
+                        <Row className="text-muted">Ghana</Row>
+                        <Row className="text-muted">Greater Accra, Accra</Row>
+                    </Col>
+                    <Col className="pt-4">
+                        <Button color="primary">View</Button>{'  '}
+                        <Button color="success">Authorize</Button>
+                    </Col>
+                </Row>
+                <Row className="pt-2 mb-4">
+                    <Col xl="3"> 
+                        <img src="" alt="pc"/>
+                    </Col>
+                    <Col xl="3">
+                        <Row className="text-info">Adenta KFC</Row>
+                        <Row className="text-muted">adentakfc@gmail.com</Row>
+                        <Row className="text-muted">0262720206</Row>
+                        <Row className="text-muted">Ghana</Row>
+                        <Row className="text-muted">Greater Accra, Accra</Row>
+                    </Col>
+                    <Col className="pt-4">
+                        <Button color="primary">View</Button>{'  '}
+                        <Button color="success">Authorize</Button>
+                    </Col>
+                </Row>
+            </Card>
         </div>
     )
 };
