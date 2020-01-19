@@ -19,7 +19,7 @@ const ViewRestaurant = () => {
                     </Row>
                 </CardHeader>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3" className="pt-4"> 
+                    <Col xl="2" className="pt-4"> 
                         <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
@@ -35,7 +35,7 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3" className="pt-4"> 
+                    <Col xl="2" className="pt-4"> 
                         <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
@@ -51,7 +51,7 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3" className="pt-4"> 
+                    <Col xl="2" className="pt-4"> 
                         <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
@@ -67,7 +67,7 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3" className="pt-4"> 
+                    <Col xl="2" className="pt-4"> 
                         <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
@@ -83,7 +83,7 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3" className="pt-4"> 
+                    <Col xl="2" className="pt-4"> 
                         <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
