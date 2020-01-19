@@ -19,8 +19,8 @@ const ViewRestaurant = () => {
                     </Row>
                 </CardHeader>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3"> 
-                        <img src="" alt="pc"/>
+                    <Col xl="3" className="pt-4"> 
+                        <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
                         <Row className="text-info">Adenta KFC</Row>
@@ -35,8 +35,8 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3"> 
-                        <img src="" alt="pc"/>
+                    <Col xl="3" className="pt-4"> 
+                        <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
                         <Row className="text-info">Adenta KFC</Row>
@@ -51,8 +51,8 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3"> 
-                        <img src="" alt="pc"/>
+                    <Col xl="3" className="pt-4"> 
+                        <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
                         <Row className="text-info">Adenta KFC</Row>
@@ -67,8 +67,8 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3"> 
-                        <img src="" alt="pc"/>
+                    <Col xl="3" className="pt-4"> 
+                        <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
                         <Row className="text-info">Adenta KFC</Row>
@@ -83,8 +83,8 @@ const ViewRestaurant = () => {
                     </Col>
                 </Row>
                 <Row className="pt-2 mb-4">
-                    <Col xl="3"> 
-                        <img src="" alt="pc"/>
+                    <Col xl="3" className="pt-4"> 
+                        <img src={require('../assets/img/tim_80x80.png')} alt="pc" className="border rounded-circle"/>
                     </Col>
                     <Col xl="3">
                         <Row className="text-info">Adenta KFC</Row>
